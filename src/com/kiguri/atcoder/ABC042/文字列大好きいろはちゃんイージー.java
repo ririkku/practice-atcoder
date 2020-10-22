@@ -1,4 +1,4 @@
-package com.kiguri.ABC042;
+package com.kiguri.atcoder.ABC042;
 
 /**
  * https://atcoder.jp/contests/abc042/tasks/abc042_b

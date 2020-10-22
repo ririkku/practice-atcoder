@@ -1,4 +1,4 @@
-package com.kiguri.ABC042;
+package com.kiguri.atcoder.ABC042;
 
 import java.io.PrintWriter;
 import java.util.Scanner;
