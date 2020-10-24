@@ -12,11 +12,23 @@ public class BubbleSort {
      */
     public static void main(String[] args) {
         Random random = new Random();
-        int[] sut = new int[10];
+        int[] sut = new int[1000000];
         for (int i = 0; i < sut.length; i++) {
             sut[i] = random.nextInt(30);
         }
 
+        // 末尾から(sut);
+
+        先頭から(sut);
+
+        System.out.println("=======================");
+
+        for (int i : sut) {
+            System.out.println(i);
+        }
+    }
+
+    private static void 末尾から(int[] sut) {
         int index = 1;
         for (int i = sut.length - 1; i > 0; i--) {
 
@@ -41,15 +53,6 @@ public class BubbleSort {
             }
 
             index++;
-        }
-
-        // こういうパターンもいける
-        // 先頭から(sut);
-
-        System.out.println("=======================");
-
-        for (int i : sut) {
-            System.out.println(i);
         }
     }
 
