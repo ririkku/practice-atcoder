@@ -1,4 +1,4 @@
-package com.kiguri.atcoder.ACR106._106;
+package com.kiguri.atcoder.ARC106._106;
 
 import java.math.BigDecimal;
 import java.util.Scanner;
