@@ -3,7 +3,7 @@ package com.kiguri.atcoder.ABC121.B_CanYouSolveThis;
 import java.util.Scanner;
 
 /**
- *
+ * https://atcoder.jp/contests/abc121/tasks/abc121_b
  */
 public class Main {
 
