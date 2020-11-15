@@ -12,11 +12,11 @@ public class Main {
         double Sx = sc.nextDouble();
         double Sy = sc.nextDouble();
         double Gx = sc.nextDouble();
-        double Gy = sc.nextDouble() * -1;
+        double Gy = sc.nextDouble();
 
-        double v = (Gy - Sy) / (Gx - Sx);
-        double v1 = v * Sx - Sy;
 
-        System.out.println(v1 / v);
+        double a = Sx * Gy + Sy * Gx;
+        double b = Sy + Gy;
+        System.out.println(a / b);
     }
 }
