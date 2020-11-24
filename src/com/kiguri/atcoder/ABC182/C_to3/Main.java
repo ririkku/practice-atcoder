@@ -3,6 +3,7 @@ package com.kiguri.atcoder.ABC182.C_to3;
 import java.util.Scanner;
 
 /**
+ * TODO: どっかで解く
  * https://atcoder.jp/contests/abc182/tasks/abc182_c
  */
 public class Main {
